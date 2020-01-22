@@ -1,5 +1,8 @@
 :global {
     // global style here
+    .container-root{
+        background-color: #000 !important;
+    }
     .logo-spin {
         animation: App-logo-spin infinite 3s linear;
     }

@@ -7,7 +7,7 @@ process.env.NODE_ENV = 'development';
 module.exports = {
     entry: [
         'babel-polyfill',
-        path.join(__dirname, '../web/styles/index.scss'),
+        // path.join(__dirname, '../web/styles/index.scss'),
         path.join(__dirname, '../web/index.js')
     ],
     output: {
